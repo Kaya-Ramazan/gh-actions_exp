@@ -6,6 +6,10 @@ Jobs:
   first_job:
     runs_on: ubuntu-latest
     steps:
+
+      - name: checkout repostory
+        uses: actions/checkout@v4
+
       - name: welcome message
         run: echo "Wellcome to my first Kode Kloud Job"
 
