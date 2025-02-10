@@ -1,0 +1,21 @@
+name: Kode kloud_First_example
+
+on: push
+
+Jobs:
+  first_job:
+    runs_on: ubuntu-latest
+    steps:
+
+      - name: checkout repostory
+        uses: actions/checkout@v4
+
+      - name: welcome message
+        run: echo "Wellcome to my first Kode Kloud Job"
+
+      - name: List files
+        run: ls
+
+      - name: Read files
+        run: cat README.md   
+      
