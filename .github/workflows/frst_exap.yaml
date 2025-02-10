@@ -6,10 +6,10 @@ on:
       - '.github/workflows/first-action.yaml'
 
 
-Jobs:
+jobs:
   first_job:
-    runs_on: ubuntu-latest
-    steps:
+      runs-on: ubuntu-latest
+      steps:
 
       - name: checkout repostory
         uses: actions/checkout@v4
