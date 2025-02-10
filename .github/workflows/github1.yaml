@@ -1,12 +1,12 @@
 name: Github Action Workflow 
 
 on: 
-  push: 
+  #push: 
     branches:
       - 'main'
       - 'master'
 
-  pull_request:
+ # pull_request:
     branches:
       - 'main'
       - 'master'
