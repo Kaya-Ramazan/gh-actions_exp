@@ -16,12 +16,16 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: welcome message
-        run: echo "Wellcome to my first Kode Kloud Job"
+      - name: List and Read File
+        run: |
+          echo "Wellcome to my first Kode Kloud Job"
+          ls -ltra
+          car README.md
+  
 
-      - name: List files
-        run: ls
+      # - name: List files
+      #   run: ls
 
-      - name: Read files
-        run: cat README.md   
+      # - name: Read files
+      #   run: cat README.md   
       
