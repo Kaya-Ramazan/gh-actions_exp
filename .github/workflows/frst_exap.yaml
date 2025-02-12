@@ -3,7 +3,7 @@ name: Kode kloud_First_example
 on:
   push:
     paths:
-      - '.github/workflows/first-action.yaml'
+      - '.github/workflows/frst_exap.yaml'
 
 
 jobs:
@@ -11,8 +11,10 @@ jobs:
       runs-on: ubuntu-latest
       steps:
 
-      - name: checkout repostory
-        uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: welcome message
         run: echo "Wellcome to my first Kode Kloud Job"
