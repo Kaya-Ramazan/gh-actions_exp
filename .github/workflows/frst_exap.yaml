@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "Wellcome to my first Kode Kloud Job"
           ls -ltra
-          car README.md
+          cat README.md
   
 
       # - name: List files
